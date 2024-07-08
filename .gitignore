@@ -7,3 +7,8 @@ node_modules
 /.mf
 .env
 .shopify
+
+# Plasmic
+plasmic.lock
+plasmic.json
+_plasmic/
