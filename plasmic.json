@@ -1,0 +1,202 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "./app/_plasmic",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "9LhnBWx7GdPG233uB4TumX",
+      "version": ">0.0.0",
+      "projectApiToken": "WHxlZqlM0G0ZnPxbKBzA2b1kDaBBelqLJlOAmSUq92SmQbbRIbHNBjirBCmep2TmD9JtT7lYCOCOp0mQ",
+      "components": [
+        {
+          "id": "0XDqJ1oiCOZ",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "xkS9mR7fDWi",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "l68XploTi1A",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "COI3McZpmS4",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "wY5rBdTEFQJ",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "mHGRvwM2tjf",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "GbBnrkQJ_c",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "9LhnBWx7GdPG233uB4TumX",
+          "renderModuleFilePath": "plasmic/oxygen_codegen_test/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "NewPage.tsx"
+          },
+          "cssFilePath": "plasmic/oxygen_codegen_test/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "dq2KdcO1DTL",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/oxygen_codegen_test/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "rEywkQYZhwu",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/oxygen_codegen_test/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "JZYQGpMfqnR",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/oxygen_codegen_test/icons/PlasmicIcon__ChevronDownsvg.tsx"
+        },
+        {
+          "id": "b9D35SWFwhj",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/oxygen_codegen_test/icons/PlasmicIcon__ChevronUpsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "QI-jJjiM6",
+          "name": "image",
+          "filePath": "plasmic/oxygen_codegen_test/images/image.png"
+        },
+        {
+          "id": "xElltLT3E",
+          "name": "image 2",
+          "filePath": "plasmic/oxygen_codegen_test/images/image2.png"
+        }
+      ],
+      "codeComponents": [
+        {
+          "id": "PH1JuiIxo-_l",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "V2RTBfxYPd9f",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "q0iJ0Z9otH",
+          "name": "MySpecialComponent",
+          "displayName": "MySpecialComponent",
+          "componentImportPath": "./app/components/MySpecialComponent"
+        }
+      ],
+      "cssFilePath": "plasmic/oxygen_codegen_test/plasmic.module.css",
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "projectName": "Oxygen Codegen Test",
+      "splitsProviderFilePath": "",
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "RM9ToBdRzdMK",
+        "name": "Screen",
+        "projectId": "9LhnBWx7GdPG233uB4TumX",
+        "contextFilePath": "plasmic/oxygen_codegen_test/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": false,
+  "cliVersion": "0.1.330",
+  "packageManager": "npm",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
