@@ -2,7 +2,14 @@
 #! oxygen_storefront_id: 1000020863
 
 name: Storefront 1000020863
-on: [push]
+on:
+  push:
+    branches: []
+
+  # Allows external webhook trigger
+  repository_dispatch:
+    types:
+      - webhook
 
 permissions:
   contents: read
