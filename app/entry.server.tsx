@@ -16,7 +16,7 @@ export default async function handleRequest(
       checkoutDomain: context.env.PUBLIC_CHECKOUT_DOMAIN,
       storeDomain: context.env.PUBLIC_STORE_DOMAIN,
     },
-    // imgSrc: "'self' data:",
+    imgSrc: ["'self'", 'data:', 'https://cdn.shopify.com'],
     styleSrc: 'https://fonts.googleapis.com',
     fontSrc: 'https://fonts.gstatic.com',
   });
