@@ -11,14 +11,20 @@
     "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx .",
     "typecheck": "tsc --noEmit",
     "codegen": "shopify hydrogen codegen",
-    "plasmic-sync": "[ ! -f plasmic.json ] && cp plasmic-empty.json plasmic.json; plasmic sync -p \"9LhnBWx7GdPG233uB4TumX@>0.0.0\" --yes --force",
-    "plasmic-sync-latest": "[ ! -f plasmic.json ] && cp plasmic-empty.json plasmic.json; plasmic sync -p 9LhnBWx7GdPG233uB4TumX@latest --yes --force",
+    "plasmic-sync": "[ ! -f plasmic.json ] && cp plasmic-empty.json plasmic.json; plasmic sync -p \"rcswM9RcMehErfbSY3sBPz@>0.0.0\" --yes --force",
+    "plasmic-sync-latest": "[ ! -f plasmic.json ] && cp plasmic-empty.json plasmic.json; plasmic sync -p rcswM9RcMehErfbSY3sBPz@latest --yes --force",
     "plasmic-clean": "rm -rf plasmic.json plasmic.lock app/_plasmic"
   },
   "prettier": "@shopify/prettier-config",
   "dependencies": {
+    "@ant-design/icons": "^5.3.7",
+    "@ant-design/pro-components": "^2.6.4",
     "@plasmicapp/cli": "^0.1.299",
     "@plasmicapp/react-web": "^0.2.239",
+    "@plasmicpkgs/antd5": "^0.0.240",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.219",
+    "@plasmicpkgs/plasmic-rich-components": "^1.0.188",
+    "@plasmicpkgs/react-parallax-tilt": "^0.0.199",
     "@remix-run/react": "^2.9.2",
     "@remix-run/server-runtime": "^2.9.2",
     "@shopify/cli": "3.60.0",
@@ -32,8 +38,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@plasmicapp/cli": "^0.1.330",
     "@graphql-codegen/cli": "5.0.2",
+    "@plasmicapp/cli": "^0.1.330",
     "@remix-run/dev": "^2.9.2",
     "@remix-run/eslint-config": "^2.9.2",
     "@shopify/hydrogen-codegen": "^0.3.1",
