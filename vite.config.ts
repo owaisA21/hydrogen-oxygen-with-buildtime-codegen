@@ -37,6 +37,7 @@ export default defineConfig({
        */
       include: [
         '@plasmicapp/isomorphic-unfetch',
+        '@plasmicapp/react-web',
         'use-sync-external-store/shim/index.js',
         'classnames',
       ],
