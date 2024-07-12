@@ -43,7 +43,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: npm i
 
       - name: Plasmic Sync
         run: npm run plasmic-sync
